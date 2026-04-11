@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate"
+		},
+		{
+			"file" : "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate.rule"
+		},
+		{
+			"file" : "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete.rule"
+		},
+		{
+			"file" : "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build.rule"
+		},
+		{
+			"file" : "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure.rule"
+		},
+		{
+			"file" : "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download.rule"
+		},
+		{
+			"file" : "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install.rule"
+		},
+		{
+			"file" : "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch.rule"
+		},
+		{
+			"file" : "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test.rule"
+		},
+		{
+			"file" : "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vorbis-populate"
+		],
+		"name" : "vorbis-populate"
+	}
+}

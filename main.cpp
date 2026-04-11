@@ -421,7 +421,7 @@ void obHardFixed(Player& player, std::vector<Obstacle>& enemies, sf::RenderWindo
                 enemies.push_back(Obstacle(randomLane, player, -400, offsetFromPlayer + 300));
             }
             else {
-                enemies.push_back(Obstacle(randomLane, player, -400, offsetFromPlayer + 500));
+                enemies.push_back(Obstacle(randomLane, player, -400, offsetFromPlayer + 200));
             }
             fastCars++;
         }
@@ -434,6 +434,7 @@ void obHardFixed(Player& player, std::vector<Obstacle>& enemies, sf::RenderWindo
         if (enemies[i].GetY() < player.GetY() - 300) {
             enemies.erase(enemies.begin() + i);
         } else {
+            bool soundPlayed = false;
             enemies[i].Move(dt);
             enemies[i].Collide(player);
             if (!enemies[i].IsCar()) {
@@ -444,8 +445,9 @@ void obHardFixed(Player& player, std::vector<Obstacle>& enemies, sf::RenderWindo
             }
             else{
                 enemies[i].Draw(window, car, frameCount, player);
-                if (carS.getStatus() != sf::Sound::Status::Playing && abs(enemies[i].GetY() - player.GetY()) < 500) {
+                if (!soundPlayed && carS.getStatus() != sf::Sound::Status::Playing && abs(enemies[i].GetY() - player.GetY()) < 500) {
                     carS.play();
+                    soundPlayed = true;
                 }
 
             }
@@ -487,7 +489,7 @@ int main() {
     sf::SoundBuffer splatB, runB, carB, melonB;
     if (!splatB.loadFromFile("../assets/splatC.mp3")) std::cerr << "Error loading splatC.mp3" << std::endl;
     if (!runB.loadFromFile("../assets/run.mp3")) std::cerr << "Error loading run.mp3" << std::endl;
-    if (!carB.loadFromFile("../assets/carC.mp3")) std::cerr << "Error loading carC.mp3" << std::endl;
+    if (!carB.loadFromFile("../assets/carCCC.mp3")) std::cerr << "Error loading carC.mp3" << std::endl;
     if (!melonB.loadFromFile("../assets/melon.mp3")) std::cerr << "Error loading melon.mp3" << std::endl;
 
     sf::Sound splat(splatB);
@@ -495,9 +497,14 @@ int main() {
     sf::Sound run(runB);
     run.setVolume(100);
     sf::Sound carS(carB);
-    carS.setVolume(100);
+    carS.setVolume(40);
     sf::Sound melon(melonB);
     melon.setVolume(100);
+
+    sf::Music soundtrack;
+    if (!soundtrack.openFromFile("../assets/soundtrack.mp3")) std::cerr << "Error loading soundtrack.ogg" << std::endl;
+    soundtrack.setVolume(30);
+    soundtrack.setLooping(true);
 
 
 
@@ -545,17 +552,20 @@ int main() {
 
     int movPos = 0;
 
+    soundtrack.play();
+
 
     while (window.isOpen()) {
         while (auto event = window.pollEvent()) {
             if (event->is<sf::Event::Closed>()) {
                 window.close();
             }
-            if (::gameState == 0 &&  sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Space)) {::gameState = 1; ::score = 0;}
+            if (::gameState == 0 &&  sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Space)) {::gameState = 1; ::score = 0;  }
         }
 
         frameCount++;
         float dt = clock.restart().asSeconds();
+
 
         if (::lost) {
             splat.stop();
@@ -568,6 +578,13 @@ int main() {
             gameState = 0;
             ::travelError = 0;
             ::speedingTicket = 0;
+            soundtrack.stop();
+            sf::Clock clock2;
+            clock2.restart();
+            //if (clock2.getElapsedTime().asSeconds() >= 1.f) {
+                soundtrack.play();
+            //}
+
 
             ::lost = false;
             WriteHighScore();

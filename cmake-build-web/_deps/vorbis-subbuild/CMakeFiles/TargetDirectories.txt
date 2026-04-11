@@ -1,0 +1,3 @@
+/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate.dir
+/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/CMakeFiles/edit_cache.dir
+/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-subbuild/CMakeFiles/rebuild_cache.dir

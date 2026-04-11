@@ -1,0 +1,1702 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Linux - 6.17.0-20-generic - x86_64
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "cmake-build-web/_deps/sfml-src/src/SFML/System/CMakeLists.txt:69 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-7IQ1sY"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-7IQ1sY"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-7IQ1sY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_142b3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_142b3.dir/build.make CMakeFiles/cmTC_142b3.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-7IQ1sY'
+        Building C object CMakeFiles/cmTC_142b3.dir/src.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_142b3.dir/src.c.o -MF CMakeFiles/cmTC_142b3.dir/src.c.o.d -o CMakeFiles/cmTC_142b3.dir/src.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-7IQ1sY/src.c
+        Linking C executable cmTC_142b3.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_142b3.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_142b3.dir/src.c.o -o cmTC_142b3.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-7IQ1sY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-web/_deps/freetype-src/CMakeLists.txt:301 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-o2xK13"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-o2xK13"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/freetype-src/builds/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-o2xK13'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8dbcb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8dbcb.dir/build.make CMakeFiles/cmTC_8dbcb.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-o2xK13'
+        Building C object CMakeFiles/cmTC_8dbcb.dir/CheckIncludeFile.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_8dbcb.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_8dbcb.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_8dbcb.dir/CheckIncludeFile.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-o2xK13/CheckIncludeFile.c
+        Linking C executable cmTC_8dbcb.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dbcb.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_8dbcb.dir/CheckIncludeFile.c.o -o cmTC_8dbcb.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-o2xK13'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-web/_deps/freetype-src/CMakeLists.txt:302 (check_include_file)"
+    checks:
+      - "Looking for fcntl.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-CqTj9S"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-CqTj9S"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/freetype-src/builds/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-CqTj9S'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_38f1f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_38f1f.dir/build.make CMakeFiles/cmTC_38f1f.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-CqTj9S'
+        Building C object CMakeFiles/cmTC_38f1f.dir/CheckIncludeFile.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_38f1f.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_38f1f.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_38f1f.dir/CheckIncludeFile.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-CqTj9S/CheckIncludeFile.c
+        Linking C executable cmTC_38f1f.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38f1f.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_38f1f.dir/CheckIncludeFile.c.o -o cmTC_38f1f.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-CqTj9S'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:57 (check_include_files)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-SXtrU9"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-SXtrU9"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "INCLUDE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-SXtrU9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_70eb7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_70eb7.dir/build.make CMakeFiles/cmTC_70eb7.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-SXtrU9'
+        Building C object CMakeFiles/cmTC_70eb7.dir/INCLUDE_INTTYPES_H.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_70eb7.dir/INCLUDE_INTTYPES_H.c.o -MF CMakeFiles/cmTC_70eb7.dir/INCLUDE_INTTYPES_H.c.o.d -o CMakeFiles/cmTC_70eb7.dir/INCLUDE_INTTYPES_H.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-SXtrU9/INCLUDE_INTTYPES_H.c
+        Linking C executable cmTC_70eb7.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70eb7.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_70eb7.dir/INCLUDE_INTTYPES_H.c.o -o cmTC_70eb7.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-SXtrU9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:58 (check_include_files)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-1VmmrV"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-1VmmrV"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "INCLUDE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-1VmmrV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4d0e1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4d0e1.dir/build.make CMakeFiles/cmTC_4d0e1.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-1VmmrV'
+        Building C object CMakeFiles/cmTC_4d0e1.dir/INCLUDE_STDINT_H.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_4d0e1.dir/INCLUDE_STDINT_H.c.o -MF CMakeFiles/cmTC_4d0e1.dir/INCLUDE_STDINT_H.c.o.d -o CMakeFiles/cmTC_4d0e1.dir/INCLUDE_STDINT_H.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-1VmmrV/INCLUDE_STDINT_H.c
+        Linking C executable cmTC_4d0e1.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d0e1.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_4d0e1.dir/INCLUDE_STDINT_H.c.o -o cmTC_4d0e1.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-1VmmrV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:59 (check_include_files)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-IRrDzS"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-IRrDzS"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "INCLUDE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-IRrDzS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6d811/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6d811.dir/build.make CMakeFiles/cmTC_6d811.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-IRrDzS'
+        Building C object CMakeFiles/cmTC_6d811.dir/INCLUDE_SYS_TYPES_H.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_6d811.dir/INCLUDE_SYS_TYPES_H.c.o -MF CMakeFiles/cmTC_6d811.dir/INCLUDE_SYS_TYPES_H.c.o.d -o CMakeFiles/cmTC_6d811.dir/INCLUDE_SYS_TYPES_H.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-IRrDzS/INCLUDE_SYS_TYPES_H.c
+        Linking C executable cmTC_6d811.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d811.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_6d811.dir/INCLUDE_SYS_TYPES_H.c.o -o cmTC_6d811.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-IRrDzS'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:223 (check_include_file)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-yRKJSY"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-yRKJSY"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-yRKJSY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e0275/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e0275.dir/build.make CMakeFiles/cmTC_e0275.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-yRKJSY'
+        Building C object CMakeFiles/cmTC_e0275.dir/CheckIncludeFile.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_e0275.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_e0275.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_e0275.dir/CheckIncludeFile.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-yRKJSY/CheckIncludeFile.c
+        Linking C executable cmTC_e0275.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0275.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_e0275.dir/CheckIncludeFile.c.o -o cmTC_e0275.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-yRKJSY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:224 (check_include_file)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-I18j8t"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-I18j8t"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-I18j8t'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5b6b0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5b6b0.dir/build.make CMakeFiles/cmTC_5b6b0.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-I18j8t'
+        Building C object CMakeFiles/cmTC_5b6b0.dir/CheckIncludeFile.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_5b6b0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_5b6b0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_5b6b0.dir/CheckIncludeFile.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-I18j8t/CheckIncludeFile.c
+        Linking C executable cmTC_5b6b0.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b6b0.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_5b6b0.dir/CheckIncludeFile.c.o -o cmTC_5b6b0.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-I18j8t'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:225 (check_include_file)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YWKZII"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YWKZII"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YWKZII'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dc08e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dc08e.dir/build.make CMakeFiles/cmTC_dc08e.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YWKZII'
+        Building C object CMakeFiles/cmTC_dc08e.dir/CheckIncludeFile.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_dc08e.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_dc08e.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_dc08e.dir/CheckIncludeFile.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YWKZII/CheckIncludeFile.c
+        Linking C executable cmTC_dc08e.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc08e.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_dc08e.dir/CheckIncludeFile.c.o -o cmTC_dc08e.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YWKZII'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:114 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:239 (__check_type_size_impl)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_93448/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_93448.dir/build.make CMakeFiles/cmTC_93448.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_93448.dir/INT16_SIZE.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_93448.dir/INT16_SIZE.c.o -MF CMakeFiles/cmTC_93448.dir/INT16_SIZE.c.o.d -o CMakeFiles/cmTC_93448.dir/INT16_SIZE.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CheckTypeSize/INT16_SIZE.c
+        Linking C executable cmTC_93448.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93448.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_93448.dir/INT16_SIZE.c.o -o cmTC_93448.js  --oformat=wasm -sWASM=1 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:114 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:239 (__check_type_size_impl)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:4 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_UINT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_85c73/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_85c73.dir/build.make CMakeFiles/cmTC_85c73.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_85c73.dir/UINT16_SIZE.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_85c73.dir/UINT16_SIZE.c.o -MF CMakeFiles/cmTC_85c73.dir/UINT16_SIZE.c.o.d -o CMakeFiles/cmTC_85c73.dir/UINT16_SIZE.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CheckTypeSize/UINT16_SIZE.c
+        Linking C executable cmTC_85c73.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85c73.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_85c73.dir/UINT16_SIZE.c.o -o cmTC_85c73.js  --oformat=wasm -sWASM=1 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:114 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:239 (__check_type_size_impl)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:5 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_U_INT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9b0ca/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9b0ca.dir/build.make CMakeFiles/cmTC_9b0ca.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_9b0ca.dir/U_INT16_SIZE.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_9b0ca.dir/U_INT16_SIZE.c.o -MF CMakeFiles/cmTC_9b0ca.dir/U_INT16_SIZE.c.o.d -o CMakeFiles/cmTC_9b0ca.dir/U_INT16_SIZE.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CheckTypeSize/U_INT16_SIZE.c
+        Linking C executable cmTC_9b0ca.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b0ca.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_9b0ca.dir/U_INT16_SIZE.c.o -o cmTC_9b0ca.js  --oformat=wasm -sWASM=1 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:114 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:239 (__check_type_size_impl)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:6 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_206e3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_206e3.dir/build.make CMakeFiles/cmTC_206e3.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_206e3.dir/INT32_SIZE.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_206e3.dir/INT32_SIZE.c.o -MF CMakeFiles/cmTC_206e3.dir/INT32_SIZE.c.o.d -o CMakeFiles/cmTC_206e3.dir/INT32_SIZE.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CheckTypeSize/INT32_SIZE.c
+        Linking C executable cmTC_206e3.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_206e3.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_206e3.dir/INT32_SIZE.c.o -o cmTC_206e3.js  --oformat=wasm -sWASM=1 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:114 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:239 (__check_type_size_impl)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:7 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_UINT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_db6d3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_db6d3.dir/build.make CMakeFiles/cmTC_db6d3.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_db6d3.dir/UINT32_SIZE.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_db6d3.dir/UINT32_SIZE.c.o -MF CMakeFiles/cmTC_db6d3.dir/UINT32_SIZE.c.o.d -o CMakeFiles/cmTC_db6d3.dir/UINT32_SIZE.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CheckTypeSize/UINT32_SIZE.c
+        Linking C executable cmTC_db6d3.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db6d3.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_db6d3.dir/UINT32_SIZE.c.o -o cmTC_db6d3.js  --oformat=wasm -sWASM=1 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:114 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:239 (__check_type_size_impl)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:8 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_U_INT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9f8eb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9f8eb.dir/build.make CMakeFiles/cmTC_9f8eb.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_9f8eb.dir/U_INT32_SIZE.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_9f8eb.dir/U_INT32_SIZE.c.o -MF CMakeFiles/cmTC_9f8eb.dir/U_INT32_SIZE.c.o.d -o CMakeFiles/cmTC_9f8eb.dir/U_INT32_SIZE.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CheckTypeSize/U_INT32_SIZE.c
+        Linking C executable cmTC_9f8eb.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f8eb.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_9f8eb.dir/U_INT32_SIZE.c.o -o cmTC_9f8eb.js  --oformat=wasm -sWASM=1 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:114 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:239 (__check_type_size_impl)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:9 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT64_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c2b80/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c2b80.dir/build.make CMakeFiles/cmTC_c2b80.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_c2b80.dir/INT64_SIZE.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_c2b80.dir/INT64_SIZE.c.o -MF CMakeFiles/cmTC_c2b80.dir/INT64_SIZE.c.o.d -o CMakeFiles/cmTC_c2b80.dir/INT64_SIZE.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CheckTypeSize/INT64_SIZE.c
+        Linking C executable cmTC_c2b80.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2b80.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_c2b80.dir/INT64_SIZE.c.o -o cmTC_c2b80.js  --oformat=wasm -sWASM=1 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:114 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:239 (__check_type_size_impl)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:10 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SHORT_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0710a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0710a.dir/build.make CMakeFiles/cmTC_0710a.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_0710a.dir/SHORT_SIZE.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_0710a.dir/SHORT_SIZE.c.o -MF CMakeFiles/cmTC_0710a.dir/SHORT_SIZE.c.o.d -o CMakeFiles/cmTC_0710a.dir/SHORT_SIZE.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CheckTypeSize/SHORT_SIZE.c
+        Linking C executable cmTC_0710a.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0710a.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_0710a.dir/SHORT_SIZE.c.o -o cmTC_0710a.js  --oformat=wasm -sWASM=1 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:114 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:239 (__check_type_size_impl)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:11 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a5d31/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a5d31.dir/build.make CMakeFiles/cmTC_a5d31.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_a5d31.dir/INT_SIZE.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_a5d31.dir/INT_SIZE.c.o -MF CMakeFiles/cmTC_a5d31.dir/INT_SIZE.c.o.d -o CMakeFiles/cmTC_a5d31.dir/INT_SIZE.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CheckTypeSize/INT_SIZE.c
+        Linking C executable cmTC_a5d31.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5d31.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_a5d31.dir/INT_SIZE.c.o -o cmTC_a5d31.js  --oformat=wasm -sWASM=1 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:114 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:239 (__check_type_size_impl)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:12 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LONG_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2bd7f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2bd7f.dir/build.make CMakeFiles/cmTC_2bd7f.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_2bd7f.dir/LONG_SIZE.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_2bd7f.dir/LONG_SIZE.c.o -MF CMakeFiles/cmTC_2bd7f.dir/LONG_SIZE.c.o.d -o CMakeFiles/cmTC_2bd7f.dir/LONG_SIZE.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CheckTypeSize/LONG_SIZE.c
+        Linking C executable cmTC_2bd7f.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bd7f.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_2bd7f.dir/LONG_SIZE.c.o -o cmTC_2bd7f.js  --oformat=wasm -sWASM=1 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:114 (try_compile)"
+      - "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:239 (__check_type_size_impl)"
+      - "cmake-build-web/_deps/ogg-src/cmake/CheckSizes.cmake:13 (check_type_size)"
+      - "cmake-build-web/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LONG_LONG_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bcefa/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bcefa.dir/build.make CMakeFiles/cmTC_bcefa.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_bcefa.dir/LONG_LONG_SIZE.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_bcefa.dir/LONG_LONG_SIZE.c.o -MF CMakeFiles/cmTC_bcefa.dir/LONG_LONG_SIZE.c.o.d -o CMakeFiles/cmTC_bcefa.dir/LONG_LONG_SIZE.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CheckTypeSize/LONG_LONG_SIZE.c
+        Linking C executable cmTC_bcefa.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcefa.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_bcefa.dir/LONG_LONG_SIZE.c.o -o cmTC_bcefa.js  --oformat=wasm -sWASM=1 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindIconv.cmake:115 (check_c_source_compiles)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:81 (find_package)"
+    checks:
+      - "Performing Test Iconv_IS_BUILT_IN"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-AUVQPo"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-AUVQPo"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "Iconv_IS_BUILT_IN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-AUVQPo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6c3c2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6c3c2.dir/build.make CMakeFiles/cmTC_6c3c2.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-AUVQPo'
+        Building C object CMakeFiles/cmTC_6c3c2.dir/src.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -DIconv_IS_BUILT_IN   -MD -MT CMakeFiles/cmTC_6c3c2.dir/src.c.o -MF CMakeFiles/cmTC_6c3c2.dir/src.c.o.d -o CMakeFiles/cmTC_6c3c2.dir/src.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-AUVQPo/src.c
+        Linking C executable cmTC_6c3c2.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c3c2.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_6c3c2.dir/src.c.o -o cmTC_6c3c2.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-AUVQPo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-web/_deps/flac-src/cmake/UseSystemExtensions.cmake:3 (check_c_source_compiles)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:107 (include)"
+    checks:
+      - "Performing Test HAVE_MBSTATE"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-TwTqJ4"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-TwTqJ4"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_MBSTATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-TwTqJ4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1ac0d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1ac0d.dir/build.make CMakeFiles/cmTC_1ac0d.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-TwTqJ4'
+        Building C object CMakeFiles/cmTC_1ac0d.dir/src.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -DHAVE_MBSTATE  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_1ac0d.dir/src.c.o -MF CMakeFiles/cmTC_1ac0d.dir/src.c.o.d -o CMakeFiles/cmTC_1ac0d.dir/src.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-TwTqJ4/src.c
+        /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-TwTqJ4/src.c:4:13: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+            4 |     int main() { return 0; }
+              |             ^
+              |              void
+        1 warning generated.
+        Linking C executable cmTC_1ac0d.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ac0d.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_1ac0d.dir/src.c.o -o cmTC_1ac0d.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-TwTqJ4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-web/_deps/flac-src/cmake/UseSystemExtensions.cmake:16 (check_c_source_compiles)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:107 (include)"
+    checks:
+      - "Performing Test DODEFINE_EXTENSIONS"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-DXzz4A"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-DXzz4A"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "DODEFINE_EXTENSIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-DXzz4A'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c4afd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c4afd.dir/build.make CMakeFiles/cmTC_c4afd.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-DXzz4A'
+        Building C object CMakeFiles/cmTC_c4afd.dir/src.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -DDODEFINE_EXTENSIONS  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_c4afd.dir/src.c.o -MF CMakeFiles/cmTC_c4afd.dir/src.c.o.d -o CMakeFiles/cmTC_c4afd.dir/src.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-DXzz4A/src.c
+        /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-DXzz4A/src.c:36:13: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+           36 |     int main() { return 0; }
+              |             ^
+              |              void
+        1 warning generated.
+        Linking C executable cmTC_c4afd.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4afd.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_c4afd.dir/src.c.o -o cmTC_c4afd.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-DXzz4A'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:111 (check_include_file)"
+    checks:
+      - "Looking for byteswap.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-oMCIeL"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-oMCIeL"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_BYTESWAP_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-oMCIeL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1b464/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1b464.dir/build.make CMakeFiles/cmTC_1b464.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-oMCIeL'
+        Building C object CMakeFiles/cmTC_1b464.dir/CheckIncludeFile.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_1b464.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_1b464.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_1b464.dir/CheckIncludeFile.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-oMCIeL/CheckIncludeFile.c
+        Linking C executable cmTC_1b464.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b464.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_1b464.dir/CheckIncludeFile.c.o -o cmTC_1b464.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-oMCIeL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:112 (check_include_file)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-AcMl9k"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-AcMl9k"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-AcMl9k'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_df90e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_df90e.dir/build.make CMakeFiles/cmTC_df90e.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-AcMl9k'
+        Building C object CMakeFiles/cmTC_df90e.dir/CheckIncludeFile.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_df90e.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_df90e.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_df90e.dir/CheckIncludeFile.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-AcMl9k/CheckIncludeFile.c
+        Linking C executable cmTC_df90e.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df90e.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_df90e.dir/CheckIncludeFile.c.o -o cmTC_df90e.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-AcMl9k'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:114 (check_include_file)"
+    checks:
+      - "Looking for stdbool.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-4VYPpu"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-4VYPpu"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-4VYPpu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8e7f9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8e7f9.dir/build.make CMakeFiles/cmTC_8e7f9.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-4VYPpu'
+        Building C object CMakeFiles/cmTC_8e7f9.dir/CheckIncludeFile.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_8e7f9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_8e7f9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_8e7f9.dir/CheckIncludeFile.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-4VYPpu/CheckIncludeFile.c
+        Linking C executable cmTC_8e7f9.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e7f9.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_8e7f9.dir/CheckIncludeFile.c.o -o cmTC_8e7f9.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-4VYPpu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:115 (check_include_file)"
+    checks:
+      - "Looking for arm_neon.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-5BM66z"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-5BM66z"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "FLAC__HAS_NEONINTRIN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-5BM66z'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2fa25/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2fa25.dir/build.make CMakeFiles/cmTC_2fa25.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-5BM66z'
+        Building C object CMakeFiles/cmTC_2fa25.dir/CheckIncludeFile.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_2fa25.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_2fa25.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_2fa25.dir/CheckIncludeFile.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-5BM66z/CheckIncludeFile.c
+        Linking C executable cmTC_2fa25.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fa25.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_2fa25.dir/CheckIncludeFile.c.o -o cmTC_2fa25.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-5BM66z'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:124 (check_include_file)"
+    checks:
+      - "Looking for x86intrin.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-LqfalK"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-LqfalK"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "FLAC__HAS_X86INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-LqfalK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_10b50/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_10b50.dir/build.make CMakeFiles/cmTC_10b50.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-LqfalK'
+        Building C object CMakeFiles/cmTC_10b50.dir/CheckIncludeFile.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_10b50.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_10b50.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_10b50.dir/CheckIncludeFile.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-LqfalK/CheckIncludeFile.c
+        In file included from /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-LqfalK/CheckIncludeFile.c:1:
+        In file included from /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/x86intrin.h:19:
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/ammintrin.h:14:2: error: "This header is only meant to be used on x86 and x64 architecture"
+           14 | #error "This header is only meant to be used on x86 and x64 architecture"
+              |  ^
+        In file included from /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-LqfalK/CheckIncludeFile.c:1:
+        In file included from /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/x86intrin.h:19:
+        In file included from /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/ammintrin.h:17:
+        /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/compat/pmmintrin.h:11:2: error: "SSE3 instruction set not enabled"
+           11 | #error "SSE3 instruction set not enabled"
+              |  ^
+        In file included from /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-LqfalK/CheckIncludeFile.c:1:
+        In file included from /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/x86intrin.h:19:
+        In file included from /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/ammintrin.h:17:
+        In file included from /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/compat/pmmintrin.h:14:
+        /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/compat/emmintrin.h:11:2: error: "SSE2 instruction set not enabled"
+           11 | #error "SSE2 instruction set not enabled"
+              |  ^
+        In file included from /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-LqfalK/CheckIncludeFile.c:1:
+        In file included from /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/x86intrin.h:19:
+        In file included from /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/ammintrin.h:17:
+        In file included from /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/compat/pmmintrin.h:14:
+        In file included from /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/compat/emmintrin.h:14:
+        /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/compat/xmmintrin.h:17:2: error: "SSE instruction set not enabled"
+           17 | #error "SSE instruction set not enabled"
+              |  ^
+        In file included from /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-LqfalK/CheckIncludeFile.c:1:
+        In file included from /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/x86intrin.h:19:
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/ammintrin.h:72:41: error: use of undeclared identifier '__v2di'
+           72 |   return (__m128i)__builtin_ia32_extrq((__v2di)__x, (__v16qi)__y);
+              |                                         ^~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/ammintrin.h:72:54: error: use of undeclared identifier '__v16qi'
+           72 |   return (__m128i)__builtin_ia32_extrq((__v2di)__x, (__v16qi)__y);
+              |                                                      ^~~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/ammintrin.h:142:43: error: use of undeclared identifier '__v2di'
+          142 |   return (__m128i)__builtin_ia32_insertq((__v2di)__x, (__v2di)__y);
+              |                                           ^~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/ammintrin.h:142:56: error: use of undeclared identifier '__v2di'
+          142 |   return (__m128i)__builtin_ia32_insertq((__v2di)__x, (__v2di)__y);
+              |                                                        ^~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/ammintrin.h:160:42: error: use of undeclared identifier '__v2df'
+          160 |   __builtin_ia32_movntsd((double *)__p, (__v2df)__a);
+              |                                          ^~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/ammintrin.h:178:41: error: use of undeclared identifier '__v4sf'
+          178 |   __builtin_ia32_movntss((float *)__p, (__v4sf)__a);
+              |                                         ^~~~~~
+        In file included from /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-LqfalK/CheckIncludeFile.c:1:
+        In file included from /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/x86intrin.h:21:
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/fma4intrin.h:33:45: error: use of undeclared identifier '__v4sf'
+           33 |   return (__m128)__builtin_elementwise_fma((__v4sf)__A, (__v4sf)__B,
+              |                                             ^~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/fma4intrin.h:33:58: error: use of undeclared identifier '__v4sf'
+           33 |   return (__m128)__builtin_elementwise_fma((__v4sf)__A, (__v4sf)__B,
+              |                                                          ^~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/fma4intrin.h:34:45: error: use of undeclared identifier '__v4sf'
+           34 |                                            (__v4sf)__C);
+              |                                             ^~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/fma4intrin.h:39:46: error: use of undeclared identifier '__v2df'
+           39 |   return (__m128d)__builtin_elementwise_fma((__v2df)__A, (__v2df)__B,
+              |                                              ^~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/fma4intrin.h:39:59: error: use of undeclared identifier '__v2df'
+           39 |   return (__m128d)__builtin_elementwise_fma((__v2df)__A, (__v2df)__B,
+              |                                                           ^~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/fma4intrin.h:40:46: error: use of undeclared identifier '__v2df'
+           40 |                                             (__v2df)__C);
+              |                                              ^~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/fma4intrin.h:55:45: error: use of undeclared identifier '__v4sf'
+           55 |   return (__m128)__builtin_elementwise_fma((__v4sf)__A, (__v4sf)__B,
+              |                                             ^~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/fma4intrin.h:55:58: error: use of undeclared identifier '__v4sf'
+           55 |   return (__m128)__builtin_elementwise_fma((__v4sf)__A, (__v4sf)__B,
+              |                                                          ^~~~~~
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/fma4intrin.h:56:46: error: use of undeclared identifier '__v4sf'
+           56 |                                            -(__v4sf)__C);
+              |                                              ^~~~~~
+        fatal error: too many errors emitted, stopping now [-ferror-limit=]
+        20 errors generated.
+        gmake[1]: *** [CMakeFiles/cmTC_10b50.dir/build.make:79: CMakeFiles/cmTC_10b50.dir/CheckIncludeFile.c.o] Error 1
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-LqfalK'
+        gmake: *** [Makefile:127: cmTC_10b50/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:127 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-p1tYSr"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-p1tYSr"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-p1tYSr'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_34403/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_34403.dir/build.make CMakeFiles/cmTC_34403.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-p1tYSr'
+        Building C object CMakeFiles/cmTC_34403.dir/CheckFunctionExists.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=fseeko -MD -MT CMakeFiles/cmTC_34403.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_34403.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_34403.dir/CheckFunctionExists.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-p1tYSr/CheckFunctionExists.c
+        Linking C executable cmTC_34403.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34403.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=fseeko CMakeFiles/cmTC_34403.dir/CheckFunctionExists.c.o -o cmTC_34403.js 
+        wasm-ld: warning: function signature mismatch: fseeko
+        >>> defined as () -> i32 in CMakeFiles/cmTC_34403.dir/CheckFunctionExists.c.o
+        >>> defined as (i32, i64, i32) -> i32 in /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(fseek.o)
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-p1tYSr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:129 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BSWAP16"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-XICrEs"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-XICrEs"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_BSWAP16"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-XICrEs'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_63da0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_63da0.dir/build.make CMakeFiles/cmTC_63da0.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-XICrEs'
+        Building C object CMakeFiles/cmTC_63da0.dir/src.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -DHAVE_BSWAP16  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_63da0.dir/src.c.o -MF CMakeFiles/cmTC_63da0.dir/src.c.o.d -o CMakeFiles/cmTC_63da0.dir/src.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-XICrEs/src.c
+        /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-XICrEs/src.c:1:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+            1 | int main() { return __builtin_bswap16 (0) ; }
+              |         ^
+              |          void
+        1 warning generated.
+        Linking C executable cmTC_63da0.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63da0.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_63da0.dir/src.c.o -o cmTC_63da0.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-XICrEs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:130 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BSWAP32"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-ggj0nE"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-ggj0nE"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_BSWAP32"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-ggj0nE'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4cac/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d4cac.dir/build.make CMakeFiles/cmTC_d4cac.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-ggj0nE'
+        Building C object CMakeFiles/cmTC_d4cac.dir/src.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -DHAVE_BSWAP32  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_d4cac.dir/src.c.o -MF CMakeFiles/cmTC_d4cac.dir/src.c.o.d -o CMakeFiles/cmTC_d4cac.dir/src.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-ggj0nE/src.c
+        /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-ggj0nE/src.c:1:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+            1 | int main() { return __builtin_bswap32 (0) ; }
+              |         ^
+              |          void
+        1 warning generated.
+        Linking C executable cmTC_d4cac.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4cac.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_d4cac.dir/src.c.o -o cmTC_d4cac.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-ggj0nE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:131 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_LANGINFO_CODESET"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YoUMB1"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YoUMB1"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LANGINFO_CODESET"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YoUMB1'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c3d01/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c3d01.dir/build.make CMakeFiles/cmTC_c3d01.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YoUMB1'
+        Building C object CMakeFiles/cmTC_c3d01.dir/src.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -DHAVE_LANGINFO_CODESET  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_c3d01.dir/src.c.o -MF CMakeFiles/cmTC_c3d01.dir/src.c.o.d -o CMakeFiles/cmTC_c3d01.dir/src.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YoUMB1/src.c
+        /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YoUMB1/src.c:3:13: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+            3 |     int main()
+              |             ^
+              |              void
+        1 warning generated.
+        Linking C executable cmTC_c3d01.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3d01.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_c3d01.dir/src.c.o -o cmTC_c3d01.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-YoUMB1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:142 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WERROR_FLAG"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jJosJF"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jJosJF"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_WERROR_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jJosJF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d0288/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d0288.dir/build.make CMakeFiles/cmTC_d0288.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jJosJF'
+        Building C object CMakeFiles/cmTC_d0288.dir/src.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -DHAVE_WERROR_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -Werror -MD -MT CMakeFiles/cmTC_d0288.dir/src.c.o -MF CMakeFiles/cmTC_d0288.dir/src.c.o.d -o CMakeFiles/cmTC_d0288.dir/src.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jJosJF/src.c
+        Linking C executable cmTC_d0288.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0288.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_d0288.dir/src.c.o -o cmTC_d0288.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jJosJF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:143 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_DECL_AFTER_STMT_FLAG"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-Ztr6Yq"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-Ztr6Yq"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_DECL_AFTER_STMT_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-Ztr6Yq'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e641d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e641d.dir/build.make CMakeFiles/cmTC_e641d.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-Ztr6Yq'
+        Building C object CMakeFiles/cmTC_e641d.dir/src.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -DHAVE_DECL_AFTER_STMT_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -Wdeclaration-after-statement -MD -MT CMakeFiles/cmTC_e641d.dir/src.c.o -MF CMakeFiles/cmTC_e641d.dir/src.c.o.d -o CMakeFiles/cmTC_e641d.dir/src.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-Ztr6Yq/src.c
+        Linking C executable cmTC_e641d.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e641d.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_e641d.dir/src.c.o -o cmTC_e641d.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-Ztr6Yq'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:144 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_STACKREALIGN_FLAG"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-1s2caz"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-1s2caz"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STACKREALIGN_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-1s2caz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_77758/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_77758.dir/build.make CMakeFiles/cmTC_77758.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-1s2caz'
+        Building C object CMakeFiles/cmTC_77758.dir/src.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -DHAVE_STACKREALIGN_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -mstackrealign -MD -MT CMakeFiles/cmTC_77758.dir/src.c.o -MF CMakeFiles/cmTC_77758.dir/src.c.o.d -o CMakeFiles/cmTC_77758.dir/src.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-1s2caz/src.c
+        Linking C executable cmTC_77758.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77758.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_77758.dir/src.c.o -o cmTC_77758.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-1s2caz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-web/_deps/flac-src/CMakeLists.txt:145 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WEFFCXX_FLAG"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-u8yoTm"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-u8yoTm"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_CXX_FLAGS: "-Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef "
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_WEFFCXX_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-u8yoTm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f50e2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f50e2.dir/build.make CMakeFiles/cmTC_f50e2.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-u8yoTm'
+        Building CXX object CMakeFiles/cmTC_f50e2.dir/src.cxx.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/em++ -DHAVE_WEFFCXX_FLAG  -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef     -Weffc++ -MD -MT CMakeFiles/cmTC_f50e2.dir/src.cxx.o -MF CMakeFiles/cmTC_f50e2.dir/src.cxx.o.d -o CMakeFiles/cmTC_f50e2.dir/src.cxx.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-u8yoTm/src.cxx
+        Linking CXX executable cmTC_f50e2.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f50e2.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/em++ -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef   CMakeFiles/cmTC_f50e2.dir/src.cxx.o -o cmTC_f50e2.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-u8yoTm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-web/_deps/flac-src/src/libFLAC/CMakeLists.txt:3 (check_include_file)"
+    checks:
+      - "Looking for cpuid.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-E8LbLO"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-E8LbLO"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_CPUID_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-E8LbLO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f7696/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f7696.dir/build.make CMakeFiles/cmTC_f7696.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-E8LbLO'
+        Building C object CMakeFiles/cmTC_f7696.dir/CheckIncludeFile.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_f7696.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f7696.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f7696.dir/CheckIncludeFile.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-E8LbLO/CheckIncludeFile.c
+        In file included from /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-E8LbLO/CheckIncludeFile.c:1:
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/cpuid.h:14:2: error: this header is for x86 only
+           14 | #error this header is for x86 only
+              |  ^
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/cpuid.h:326:5: error: invalid output constraint '=a' in asm
+          326 |     __cpuid(__leaf, __eax, __ebx, __ecx, __edx);
+              |     ^
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/cpuid.h:270:11: note: expanded from macro '__cpuid'
+          270 |         : "=a"(__eax), "=r"(__ebx), "=c"(__ecx), "=d"(__edx)                   \\
+              |           ^
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/cpuid.h:367:5: error: invalid output constraint '=a' in asm
+          367 |     __cpuid(__leaf, *__eax, *__ebx, *__ecx, *__edx);
+              |     ^
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/cpuid.h:270:11: note: expanded from macro '__cpuid'
+          270 |         : "=a"(__eax), "=r"(__ebx), "=c"(__ecx), "=d"(__edx)                   \\
+              |           ^
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/cpuid.h:411:5: error: invalid output constraint '=a' in asm
+          411 |     __cpuid_count(__leaf, __subleaf, *__eax, *__ebx, *__ecx, *__edx);
+              |     ^
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/cpuid.h:277:11: note: expanded from macro '__cpuid_count'
+          277 |         : "=a"(__eax), "=r"(__ebx), "=c"(__ecx), "=d"(__edx)                   \\
+              |           ^
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/cpuid.h:445:3: error: invalid output constraint '=a' in asm
+          445 |   __cpuid_count(__leaf, __subleaf, __cpu_info[0], __cpu_info[1], __cpu_info[2],
+              |   ^
+        /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/cpuid.h:277:11: note: expanded from macro '__cpuid_count'
+          277 |         : "=a"(__eax), "=r"(__ebx), "=c"(__ecx), "=d"(__edx)                   \\
+              |           ^
+        5 errors generated.
+        gmake[1]: *** [CMakeFiles/cmTC_f7696.dir/build.make:79: CMakeFiles/cmTC_f7696.dir/CheckIncludeFile.c.o] Error 1
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-E8LbLO'
+        gmake: *** [Makefile:127: cmTC_f7696/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-web/_deps/flac-src/src/libFLAC/CMakeLists.txt:4 (check_include_file)"
+    checks:
+      - "Looking for sys/param.h"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-5rR3Bs"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-5rR3Bs"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-5rR3Bs'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_71436/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_71436.dir/build.make CMakeFiles/cmTC_71436.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-5rR3Bs'
+        Building C object CMakeFiles/cmTC_71436.dir/CheckIncludeFile.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_71436.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_71436.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_71436.dir/CheckIncludeFile.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-5rR3Bs/CheckIncludeFile.c
+        Linking C executable cmTC_71436.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71436.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_71436.dir/CheckIncludeFile.c.o -o cmTC_71436.js 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-5rR3Bs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake-build-web/_deps/flac-src/src/libFLAC/CMakeLists.txt:7 (check_function_exists)"
+    checks:
+      - "Looking for lround"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-tSDjHo"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-tSDjHo"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LROUND"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-tSDjHo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b2a4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8b2a4.dir/build.make CMakeFiles/cmTC_8b2a4.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-tSDjHo'
+        Building C object CMakeFiles/cmTC_8b2a4.dir/CheckFunctionExists.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=lround -MD -MT CMakeFiles/cmTC_8b2a4.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_8b2a4.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_8b2a4.dir/CheckFunctionExists.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-tSDjHo/CheckFunctionExists.c
+        /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-tSDjHo/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'lround' [-Wincompatible-library-redeclaration]
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+            1 | #define CHECK_FUNCTION_EXISTS lround
+              |                               ^
+        /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-tSDjHo/CheckFunctionExists.c:7:3: note: 'lround' is a builtin with type 'long (double)'
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+            1 | #define CHECK_FUNCTION_EXISTS lround
+              |                               ^
+        1 warning generated.
+        Linking C executable cmTC_8b2a4.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b2a4.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=lround CMakeFiles/cmTC_8b2a4.dir/CheckFunctionExists.c.o -o cmTC_8b2a4.js  -lm 
+        wasm-ld: warning: function signature mismatch: lround
+        >>> defined as () -> i32 in CMakeFiles/cmTC_8b2a4.dir/CheckFunctionExists.c.o
+        >>> defined as (f64) -> i32 in /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(lround.o)
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-tSDjHo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-web/_deps/flac-src/cmake/CheckCPUArch.cmake:6 (try_compile)"
+      - "cmake-build-web/_deps/flac-src/cmake/CheckCPUArch.cmake:18 (_CHECK_CPU_ARCH)"
+      - "cmake-build-web/_deps/flac-src/src/libFLAC/CMakeLists.txt:13 (check_cpu_arch_x64)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_FLAC__CPU_X86_64"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f25c6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f25c6.dir/build.make CMakeFiles/cmTC_f25c6.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_f25c6.dir/CheckCPUArch.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_f25c6.dir/CheckCPUArch.c.o -MF CMakeFiles/cmTC_f25c6.dir/CheckCPUArch.c.o.d -o CMakeFiles/cmTC_f25c6.dir/CheckCPUArch.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp/CheckCPUArch.c
+        /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp/CheckCPUArch.c:5:5: error: use of undeclared identifier 'fail'
+            5 |     fail
+              |     ^~~~
+        1 error generated.
+        gmake[1]: *** [CMakeFiles/cmTC_f25c6.dir/build.make:79: CMakeFiles/cmTC_f25c6.dir/CheckCPUArch.c.o] Error 1
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_f25c6/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-web/_deps/flac-src/cmake/CheckCPUArch.cmake:6 (try_compile)"
+      - "cmake-build-web/_deps/flac-src/cmake/CheckCPUArch.cmake:22 (_CHECK_CPU_ARCH)"
+      - "cmake-build-web/_deps/flac-src/src/libFLAC/CMakeLists.txt:15 (check_cpu_arch_x86)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_FLAC__CPU_IA32"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2a58e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2a58e.dir/build.make CMakeFiles/cmTC_2a58e.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_2a58e.dir/CheckCPUArch.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_2a58e.dir/CheckCPUArch.c.o -MF CMakeFiles/cmTC_2a58e.dir/CheckCPUArch.c.o.d -o CMakeFiles/cmTC_2a58e.dir/CheckCPUArch.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp/CheckCPUArch.c
+        /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp/CheckCPUArch.c:5:5: error: use of undeclared identifier 'fail'
+            5 |     fail
+              |     ^~~~
+        1 error generated.
+        gmake[1]: *** [CMakeFiles/cmTC_2a58e.dir/build.make:79: CMakeFiles/cmTC_2a58e.dir/CheckCPUArch.c.o] Error 1
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_2a58e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-web/_deps/flac-src/cmake/CheckCPUArch.cmake:6 (try_compile)"
+      - "cmake-build-web/_deps/flac-src/cmake/CheckCPUArch.cmake:26 (_CHECK_CPU_ARCH)"
+      - "cmake-build-web/_deps/flac-src/src/libFLAC/CMakeLists.txt:25 (check_cpu_arch_arm64)"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_FLAC__CPU_ARM64"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_02939/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_02939.dir/build.make CMakeFiles/cmTC_02939.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_02939.dir/CheckCPUArch.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -MD -MT CMakeFiles/cmTC_02939.dir/CheckCPUArch.c.o -MF CMakeFiles/cmTC_02939.dir/CheckCPUArch.c.o.d -o CMakeFiles/cmTC_02939.dir/CheckCPUArch.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp/CheckCPUArch.c
+        /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp/CheckCPUArch.c:5:5: error: use of undeclared identifier 'fail'
+            5 |     fail
+              |     ^~~~
+        1 error generated.
+        gmake[1]: *** [CMakeFiles/cmTC_02939.dir/build.make:79: CMakeFiles/cmTC_02939.dir/CheckCPUArch.c.o] Error 1
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-build/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_02939/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-web/_deps/flac-src/src/libFLAC/CMakeLists.txt:101 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_ASSOC_MATH"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-D5oQ05"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-D5oQ05"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_ASSOC_MATH"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-D5oQ05'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1fbcc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1fbcc.dir/build.make CMakeFiles/cmTC_1fbcc.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-D5oQ05'
+        Building C object CMakeFiles/cmTC_1fbcc.dir/src.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -DHAVE_ASSOC_MATH  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline     -fassociative-math -fno-signed-zeros -fno-trapping-math -freciprocal-math -MD -MT CMakeFiles/cmTC_1fbcc.dir/src.c.o -MF CMakeFiles/cmTC_1fbcc.dir/src.c.o.d -o CMakeFiles/cmTC_1fbcc.dir/src.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-D5oQ05/src.c
+        Linking C executable cmTC_1fbcc.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fbcc.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   CMakeFiles/cmTC_1fbcc.dir/src.c.o -o cmTC_1fbcc.js  -lm 
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-D5oQ05'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "cmake-build-web/_deps/vorbis-src/CMakeLists.txt:62 (check_library_exists)"
+    checks:
+      - "Looking for floor in m"
+    directories:
+      source: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jYhbEE"
+      binary: "/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jYhbEE"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/mihailo-sb/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/emsdk/upstream/emscripten/cmake/Modules;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/cmake/Modules/;/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/vorbis-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LIBM"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jYhbEE'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d2e0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1d2e0.dir/build.make CMakeFiles/cmTC_1d2e0.dir/build
+        gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jYhbEE'
+        Building C object CMakeFiles/cmTC_1d2e0.dir/CheckFunctionExists.c.o
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc   -DCHECK_FUNCTION_EXISTS=floor -MD -MT CMakeFiles/cmTC_1d2e0.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_1d2e0.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_1d2e0.dir/CheckFunctionExists.c.o -c /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jYhbEE/CheckFunctionExists.c
+        /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jYhbEE/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+            1 | #define CHECK_FUNCTION_EXISTS floor
+              |                               ^
+        /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jYhbEE/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+            1 | #define CHECK_FUNCTION_EXISTS floor
+              |                               ^
+        1 warning generated.
+        Linking C executable cmTC_1d2e0.js
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d2e0.dir/link.txt --verbose=1
+        /home/mihailo-sb/emsdk/upstream/emscripten/emcc  -DCHECK_FUNCTION_EXISTS=floor CMakeFiles/cmTC_1d2e0.dir/CheckFunctionExists.c.o -o cmTC_1d2e0.js  -lm 
+        wasm-ld: warning: function signature mismatch: floor
+        >>> defined as () -> i32 in CMakeFiles/cmTC_1d2e0.dir/CheckFunctionExists.c.o
+        >>> defined as (f64) -> f64 in /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc-debug.a(floor.o)
+        gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/CMakeFiles/CMakeScratch/TryCompile-jYhbEE'
+        
+      exitCode: 0
+...

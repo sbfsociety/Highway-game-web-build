@@ -1,0 +1,3 @@
+/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
+/home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir

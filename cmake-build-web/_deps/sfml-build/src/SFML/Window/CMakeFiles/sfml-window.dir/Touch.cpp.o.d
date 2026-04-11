@@ -1,0 +1,23 @@
+_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o: \
+  /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/src/SFML/Window/Touch.cpp \
+  /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/src/SFML/Window/InputImpl.hpp \
+  /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/include/SFML/Config.hpp \
+  /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+  /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/include/SFML/Window/Export.hpp \
+  /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
+  /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+  /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/include/SFML/System/Angle.hpp \
+  /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/include/SFML/System/Angle.inl \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config_site \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/abi.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/compiler.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/platform.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/availability.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/language.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/include/SFML/System/Vector2.inl \
+  /home/mihailo-sb/CLionProjects/Troll/cmake-build-web/_deps/sfml-src/include/SFML/Window/Touch.hpp
