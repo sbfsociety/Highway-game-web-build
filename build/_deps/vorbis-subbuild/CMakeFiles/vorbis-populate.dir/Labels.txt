@@ -1,0 +1,14 @@
+# Target labels
+ vorbis-populate
+# Source files and their labels
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update.rule

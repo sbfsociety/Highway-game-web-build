@@ -1,0 +1,34 @@
+_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/window.c.o: \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-src/lib/window.c \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-src/lib/os.h \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-src/include/ogg/os_types.h \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-build/include/ogg/config_types.h \
+  /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/inttypes.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/stdint.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/endian.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-src/lib/misc.h \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-src/include/vorbis/codec.h \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-src/include/ogg/ogg.h \
+  /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/stddef.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/__stddef_header_macro.h \
+  /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/__stddef_ptrdiff_t.h \
+  /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/__stddef_size_t.h \
+  /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/__stddef_wchar_t.h \
+  /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/__stddef_null.h \
+  /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/__stddef_max_align_t.h \
+  /home/mihailo-sb/emsdk/upstream/lib/clang/23/include/__stddef_offsetof.h \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/vorbis-src/lib/window.h

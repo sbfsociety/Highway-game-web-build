@@ -1,0 +1,2 @@
+/home/mihailo-sb/emsdk/upstream/emscripten/emar qc ../../sfml-build/lib/libvorbisenc.a CMakeFiles/vorbisenc.dir/vorbisenc.c.o
+/home/mihailo-sb/emsdk/upstream/emscripten/emranlib ../../sfml-build/lib/libvorbisenc.a

@@ -1,0 +1,14 @@
+# Target labels
+ ogg-populate
+# Source files and their labels
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update.rule

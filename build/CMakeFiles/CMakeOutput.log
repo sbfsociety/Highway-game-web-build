@@ -1,0 +1,165 @@
+Determining size of int16_t passed with the following output:
+Change Dir: '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4ee11/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_4ee11.dir/build.make CMakeFiles/cmTC_4ee11.dir/build
+gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ee11.dir/INT16_SIZE.c.o
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_4ee11.dir/INT16_SIZE.c.o -MF CMakeFiles/cmTC_4ee11.dir/INT16_SIZE.c.o.d -o CMakeFiles/cmTC_4ee11.dir/INT16_SIZE.c.o -c /home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CheckTypeSize/INT16_SIZE.c
+Linking C executable cmTC_4ee11.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ee11.dir/link.txt --verbose=1
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_4ee11.dir/INT16_SIZE.c.o -o cmTC_4ee11.js  --oformat=wasm -sWASM=1 
+gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_53dca/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_53dca.dir/build.make CMakeFiles/cmTC_53dca.dir/build
+gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53dca.dir/UINT16_SIZE.c.o
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_53dca.dir/UINT16_SIZE.c.o -MF CMakeFiles/cmTC_53dca.dir/UINT16_SIZE.c.o.d -o CMakeFiles/cmTC_53dca.dir/UINT16_SIZE.c.o -c /home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CheckTypeSize/UINT16_SIZE.c
+Linking C executable cmTC_53dca.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53dca.dir/link.txt --verbose=1
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_53dca.dir/UINT16_SIZE.c.o -o cmTC_53dca.js  --oformat=wasm -sWASM=1 
+gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_15194/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_15194.dir/build.make CMakeFiles/cmTC_15194.dir/build
+gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15194.dir/U_INT16_SIZE.c.o
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_15194.dir/U_INT16_SIZE.c.o -MF CMakeFiles/cmTC_15194.dir/U_INT16_SIZE.c.o.d -o CMakeFiles/cmTC_15194.dir/U_INT16_SIZE.c.o -c /home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CheckTypeSize/U_INT16_SIZE.c
+Linking C executable cmTC_15194.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15194.dir/link.txt --verbose=1
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_15194.dir/U_INT16_SIZE.c.o -o cmTC_15194.js  --oformat=wasm -sWASM=1 
+gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_10871/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_10871.dir/build.make CMakeFiles/cmTC_10871.dir/build
+gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10871.dir/INT32_SIZE.c.o
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_10871.dir/INT32_SIZE.c.o -MF CMakeFiles/cmTC_10871.dir/INT32_SIZE.c.o.d -o CMakeFiles/cmTC_10871.dir/INT32_SIZE.c.o -c /home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CheckTypeSize/INT32_SIZE.c
+Linking C executable cmTC_10871.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10871.dir/link.txt --verbose=1
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_10871.dir/INT32_SIZE.c.o -o cmTC_10871.js  --oformat=wasm -sWASM=1 
+gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a26e0/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_a26e0.dir/build.make CMakeFiles/cmTC_a26e0.dir/build
+gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a26e0.dir/UINT32_SIZE.c.o
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_a26e0.dir/UINT32_SIZE.c.o -MF CMakeFiles/cmTC_a26e0.dir/UINT32_SIZE.c.o.d -o CMakeFiles/cmTC_a26e0.dir/UINT32_SIZE.c.o -c /home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CheckTypeSize/UINT32_SIZE.c
+Linking C executable cmTC_a26e0.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a26e0.dir/link.txt --verbose=1
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_a26e0.dir/UINT32_SIZE.c.o -o cmTC_a26e0.js  --oformat=wasm -sWASM=1 
+gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of u_int32_t passed with the following output:
+Change Dir: '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bb7ed/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_bb7ed.dir/build.make CMakeFiles/cmTC_bb7ed.dir/build
+gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb7ed.dir/U_INT32_SIZE.c.o
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_bb7ed.dir/U_INT32_SIZE.c.o -MF CMakeFiles/cmTC_bb7ed.dir/U_INT32_SIZE.c.o.d -o CMakeFiles/cmTC_bb7ed.dir/U_INT32_SIZE.c.o -c /home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CheckTypeSize/U_INT32_SIZE.c
+Linking C executable cmTC_bb7ed.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb7ed.dir/link.txt --verbose=1
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_bb7ed.dir/U_INT32_SIZE.c.o -o cmTC_bb7ed.js  --oformat=wasm -sWASM=1 
+gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5c835/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_5c835.dir/build.make CMakeFiles/cmTC_5c835.dir/build
+gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c835.dir/INT64_SIZE.c.o
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_5c835.dir/INT64_SIZE.c.o -MF CMakeFiles/cmTC_5c835.dir/INT64_SIZE.c.o.d -o CMakeFiles/cmTC_5c835.dir/INT64_SIZE.c.o -c /home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CheckTypeSize/INT64_SIZE.c
+Linking C executable cmTC_5c835.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c835.dir/link.txt --verbose=1
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_5c835.dir/INT64_SIZE.c.o -o cmTC_5c835.js  --oformat=wasm -sWASM=1 
+gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of short passed with the following output:
+Change Dir: '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6b289/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_6b289.dir/build.make CMakeFiles/cmTC_6b289.dir/build
+gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b289.dir/SHORT_SIZE.c.o
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_6b289.dir/SHORT_SIZE.c.o -MF CMakeFiles/cmTC_6b289.dir/SHORT_SIZE.c.o.d -o CMakeFiles/cmTC_6b289.dir/SHORT_SIZE.c.o -c /home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CheckTypeSize/SHORT_SIZE.c
+Linking C executable cmTC_6b289.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b289.dir/link.txt --verbose=1
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_6b289.dir/SHORT_SIZE.c.o -o cmTC_6b289.js  --oformat=wasm -sWASM=1 
+gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int passed with the following output:
+Change Dir: '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_460d8/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_460d8.dir/build.make CMakeFiles/cmTC_460d8.dir/build
+gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_460d8.dir/INT_SIZE.c.o
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_460d8.dir/INT_SIZE.c.o -MF CMakeFiles/cmTC_460d8.dir/INT_SIZE.c.o.d -o CMakeFiles/cmTC_460d8.dir/INT_SIZE.c.o -c /home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CheckTypeSize/INT_SIZE.c
+Linking C executable cmTC_460d8.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_460d8.dir/link.txt --verbose=1
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_460d8.dir/INT_SIZE.c.o -o cmTC_460d8.js  --oformat=wasm -sWASM=1 
+gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_69af6/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_69af6.dir/build.make CMakeFiles/cmTC_69af6.dir/build
+gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69af6.dir/LONG_SIZE.c.o
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_69af6.dir/LONG_SIZE.c.o -MF CMakeFiles/cmTC_69af6.dir/LONG_SIZE.c.o.d -o CMakeFiles/cmTC_69af6.dir/LONG_SIZE.c.o -c /home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CheckTypeSize/LONG_SIZE.c
+Linking C executable cmTC_69af6.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69af6.dir/link.txt --verbose=1
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_69af6.dir/LONG_SIZE.c.o -o cmTC_69af6.js  --oformat=wasm -sWASM=1 
+gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_88ca3/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_88ca3.dir/build.make CMakeFiles/cmTC_88ca3.dir/build
+gmake[1]: Entering directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88ca3.dir/LONG_LONG_SIZE.c.o
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc    -MD -MT CMakeFiles/cmTC_88ca3.dir/LONG_LONG_SIZE.c.o -MF CMakeFiles/cmTC_88ca3.dir/LONG_LONG_SIZE.c.o.d -o CMakeFiles/cmTC_88ca3.dir/LONG_LONG_SIZE.c.o -c /home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CheckTypeSize/LONG_LONG_SIZE.c
+Linking C executable cmTC_88ca3.js
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88ca3.dir/link.txt --verbose=1
+/home/mihailo-sb/emsdk/upstream/emscripten/emcc CMakeFiles/cmTC_88ca3.dir/LONG_LONG_SIZE.c.o -o cmTC_88ca3.js  --oformat=wasm -sWASM=1 
+gmake[1]: Leaving directory '/home/mihailo-sb/CLionProjects/TROLL2/build/CMakeFiles/CMakeTmp'
+
+
+

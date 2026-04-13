@@ -1,0 +1,20 @@
+_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Emscripten/SensorImpl.cpp.o: \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/sfml-src/src/SFML/Window/Emscripten/SensorImpl.cpp \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/sfml-src/src/SFML/Window/SensorImpl.hpp \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config_site \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/abi.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/compiler.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/platform.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/availability.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__configuration/language.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
+  /home/mihailo-sb/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/mihailo-sb/CLionProjects/TROLL2/build/_deps/sfml-src/src/SFML/Window/Emscripten/SensorImpl.hpp

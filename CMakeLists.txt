@@ -14,7 +14,7 @@ FetchContent_MakeAvailable(SFML)
 FetchContent_MakeAvailable(SFML)
 
 add_executable(Troll
-        main.cpp
+        second.cpp
 )
 target_compile_features(Troll PRIVATE cxx_std_17)
 target_link_libraries(Troll PRIVATE
@@ -26,6 +26,17 @@ target_link_libraries(Troll PRIVATE
 if(EMSCRIPTEN)
     set_target_properties(Troll PROPERTIES SUFFIX ".html")
     target_link_options(Troll PRIVATE
-            "SHELL:--preload-file ${CMAKE_CURRENT_SOURCE_DIR}/assets@/assets"
+    	"-sASYNCIFY=1"
+    	"-sUSE_VORBIS=1"
+    	"-sUSE_OGG=1"
+    	"-sUSE_FREETYPE=1"
+        "-sEXPORTED_RUNTIME_METHODS=['HEAPF32']"
+        "-sMAX_WEBGL_VERSION=2" 
+    	"-sMIN_WEBGL_VERSION=1"
+    	"-sFULL_ES2=1"
+        "-sALLOW_MEMORY_GROWTH=1"
+    	"--preload-file" "${CMAKE_CURRENT_SOURCE_DIR}/assets@/assets"
     )
+    set_target_properties(Troll PROPERTIES SUFFIX ".html")
+    
 endif()

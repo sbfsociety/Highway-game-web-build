@@ -1,0 +1,14 @@
+# Target labels
+ freetype-populate
+# Source files and their labels
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test.rule
+/home/mihailo-sb/CLionProjects/TROLL2/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update.rule

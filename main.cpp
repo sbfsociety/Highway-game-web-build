@@ -418,10 +418,10 @@ void obHardFixed(Player& player, std::vector<Obstacle>& enemies, sf::RenderWindo
                 ::moveCar = true;
             }
             if (!::moveCar) {
-                enemies.push_back(Obstacle(randomLane, player, -400, offsetFromPlayer + 300));
+                enemies.push_back(Obstacle(randomLane, player, -300, offsetFromPlayer + 300));
             }
             else {
-                enemies.push_back(Obstacle(randomLane, player, -400, offsetFromPlayer + 200));
+                enemies.push_back(Obstacle(randomLane, player, -300, offsetFromPlayer + 200));
             }
             fastCars++;
         }
@@ -459,7 +459,12 @@ void obHardFixed(Player& player, std::vector<Obstacle>& enemies, sf::RenderWindo
     }
 }
 int main() {
-    sf::RenderWindow window(sf::VideoMode({ 600, 800}), "Game");
+    sf::ContextSettings settings;
+    settings.antialiasingLevel = 0;
+    settings.majorVersion = 2; 
+    settings.minorVersion = 0;
+
+    sf::RenderWindow window(sf::VideoMode(800, 600), "Game", sf::Style::Default, settings);
 
     Player player({200, 200},200);
     window.setFramerateLimit(60);
